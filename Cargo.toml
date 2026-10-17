@@ -1,0 +1,11 @@
+[package]
+name = "handl-lib-dedent"
+version = "0.1.0"
+edition = "2024"
+description = "Dedent multi-line text — the `dedent` library of the Handl platform."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/handl-lang/lib-dedent"
+
+# Sources only: `src/dedent.hnl` is exported as a const via `include_str!`.
+# No dependencies — `dedent` reaches `str` through the module chain at runtime.
+[dependencies]
