@@ -1,4 +1,4 @@
-from "./dedent" import { dedent }
+from "./index" import { dedent }
 
 -- Core behavior
 test_dedent_empty := assert dedent("") = ""

@@ -4,4 +4,4 @@
 //! chain without owning the source (ADR-0128 ".hnl ownership").
 
 /// The handl source of `dedent.hnl`.
-pub const DEDENT_HNL: &str = include_str!("dedent.hnl");
+pub const DEDENT_HNL: &str = include_str!("index.hnl");
