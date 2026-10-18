@@ -1,0 +1,19 @@
+name: lib-dedent
+root: /home/luis/GitHub/handl-lang/lib-dedent
+purpose: ''
+modules:
+- handl-lib-dedent
+- lib-dedent
+commands:
+- cargo check
+- cargo test --workspace
+provenance:
+  files:
+  - Cargo.toml
+  - src/lib.rs
+  hashes:
+  - c33343dd4e8ab9e810d1af6ec217c9227b250e51
+  - d3ff929d1bddf9a1474790522111e3644ef79d52
+  commit_sha: 60d83f0ae48fdd4a168715d771f96dbe41780ea2
+  generated_at: '1792281218'
+  generator: kuda/0.1.0

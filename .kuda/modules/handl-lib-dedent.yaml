@@ -1,0 +1,21 @@
+name: handl-lib-dedent
+path: Cargo.toml
+purpose: Dedent multi-line text — the `dedent` library of the Handl platform.
+api:
+- name: handl-lib-dedent
+  kind: module
+  file: Cargo.toml
+  line: 1
+  module: handl-lib-dedent
+deps: []
+notes: ''
+verify:
+- Cargo.toml
+provenance:
+  files:
+  - Cargo.toml
+  hashes:
+  - c33343dd4e8ab9e810d1af6ec217c9227b250e51
+  commit_sha: 60d83f0ae48fdd4a168715d771f96dbe41780ea2
+  generated_at: '1792281218'
+  generator: kuda-template/0.1.0

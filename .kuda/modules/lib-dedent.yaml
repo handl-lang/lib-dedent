@@ -1,0 +1,21 @@
+name: lib-dedent
+path: src/lib.rs
+purpose: lib-dedent
+api:
+- name: DEDENT_HNL
+  kind: const
+  file: src/lib.rs
+  line: 7
+  module: lib-dedent
+deps: []
+notes: ''
+verify:
+- src/lib.rs
+provenance:
+  files:
+  - src/lib.rs
+  hashes:
+  - d3ff929d1bddf9a1474790522111e3644ef79d52
+  commit_sha: 60d83f0ae48fdd4a168715d771f96dbe41780ea2
+  generated_at: '1792281218'
+  generator: kuda-template/0.1.0
