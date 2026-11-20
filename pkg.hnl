@@ -1,3 +1,10 @@
 -- lib-dedent: modules this package provides (entry defaults to
 -- src/index.hnl; N modules resolve to src/<name>/index.hnl).
-{ modules: ["dedent"] }
+{
+  modules: ["dedent"],
+  name: "dedent",
+  description: "Dedent multi-line text — strips the common leading whitespace prefix.",
+  license: "MIT",
+  keywords: ["dedent", "text", "stdlib", "handl"],
+  homepage: "https://github.com/handl-lang/lib-dedent",
+}
