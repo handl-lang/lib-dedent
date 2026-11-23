@@ -6,7 +6,7 @@
 
 [[repos]]
 name = "handl-lang/lib-dedent"
-dir = "/home/luis/GitHub/handl-lang/lib-dedent"
+dir = "~//GitHub/handl-lang/lib-dedent"
 branch = "refs/heads/main"
   [repos.runner]
   kind = "script"
