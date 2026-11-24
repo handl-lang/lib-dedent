@@ -1,19 +1,14 @@
 name: lib-dedent
 root: /home/luis/GitHub/handl-lang/lib-dedent
-purpose: ''
-modules:
-- handl-lib-dedent
-- lib-dedent
-commands:
-- cargo check
-- cargo test --workspace
+purpose: Dedent multi-line text — the `dedent` library of the Handl platform.
+modules: []
+commands: []
+tree_digest: da39a3ee5e6b4b0d3255bfef95601890afd80709
 provenance:
   files:
-  - Cargo.toml
-  - src/lib.rs
+  - README.md
   hashes:
-  - c33343dd4e8ab9e810d1af6ec217c9227b250e51
-  - d3ff929d1bddf9a1474790522111e3644ef79d52
-  commit_sha: 60d83f0ae48fdd4a168715d771f96dbe41780ea2
-  generated_at: '1792281218'
+  - fd0a064542298c9d6f19894c4640e03e83ff7687
+  commit_sha: 5f3bf9d1a5b846889b5afdb18a89c253e529a4c0
+  generated_at: '1795484421'
   generator: kuda/0.1.0
